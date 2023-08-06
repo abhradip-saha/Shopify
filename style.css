@@ -169,7 +169,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .CntcForm p {
-    color: rgb(24, 130, 91);
+    color: #15627b;
     font-weight: bold;
     letter-spacing: 1px;
     line-height: 26px;
@@ -213,7 +213,7 @@ form textarea {
 .CntcForm form .btn {
 
     display: inline-block;
-    background: #0a5c25;
+    background: #15627b;
 	color: #fff;
     font-size: 1.03rem;
     letter-spacing: 1px;
