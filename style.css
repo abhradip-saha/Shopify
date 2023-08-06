@@ -56,15 +56,12 @@ nav .links{
 	align-items:center;
 }
 nav .logo{
-	/* padding-left: 11%; */
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
 }
 nav .logo a{
 	text-decoration: none;
-	/* color: #fff; */
     font-size:larger;
 
 }
@@ -143,6 +140,33 @@ h1,h2,h3,h4,h5,h6{
 .ti{
     padding-left: 20%;
 }
+
+
+/* about */
+#about{
+    padding: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family:'Josefin Sans', sans-serif;
+    line-height: 2;
+    letter-spacing: 1.5;
+    font-size: 1em;
+    
+}
+.ab2{
+    padding-top: 50px;
+}
+.ab2 img{
+    width: 50%;
+    border-radius: 100%;
+    filter: brightness(100%);
+    filter: contrast(100%);
+}
+
+
+
+
+
 /* contact */
 .ContactMe {
     padding: 40px 15%;
@@ -254,7 +278,33 @@ form textarea {
 
 
 
+
 /* responsive */
+@media (min-width:1250px){
+    #about{
+        font-size: 1.2em;
+    }
+}
+@media (min-width:990px){
+    
+    .ab1{
+        padding-right: 6%;
+        padding-left: 8%;
+    }
+    .ab2{
+        display: flex;
+        padding-top: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ab2 img{
+        /* width: 50%; */
+        width: 70%;
+    }
+}
+
+
 @media (max-width:1250px){
     .ti{
         padding-top: 50px;
@@ -266,7 +316,7 @@ form textarea {
     }
 }
 @media (max-width:990px) {
-    #title {
+    #title, #about {
         text-align: center;
         
     }
@@ -283,6 +333,7 @@ form textarea {
       
     }
 }
+
 
 
 
@@ -312,6 +363,7 @@ nav .links a{
 nav .icon-burger{
 		display: block;
 	}
+   
 
 }
 nav :checked ~ .links{
@@ -348,4 +400,23 @@ nav :checked ~ .icon-burger .line:nth-child(2){
 
 }
 
-
+@media (max-width:300px) {
+    nav .logo{
+        float:left;
+        align-items:center;
+        font-size:24px; 
+        color:white;
+    }
+    #title h1{
+        font-size: 2em;
+        line-height: 1;
+        font-weight: 400;
+    }
+    .ab1{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .ab2 img{
+        width: 70%;
+    }
+}
