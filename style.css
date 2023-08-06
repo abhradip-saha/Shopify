@@ -56,11 +56,25 @@ nav .links{
 	align-items:center;
 }
 nav .logo{
-	padding-left: 11%;
+	/* padding-left: 11%; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
 }
 nav .logo a{
 	text-decoration: none;
-	color: #fff;
+	/* color: #fff; */
+    font-size:larger;
+
+}
+.shop{
+    color: #15627b;
+   
+}
+.ify{
+    color: #232222
+
 }
 nav .links li{
 	list-style:none;
@@ -124,7 +138,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .title-image {
     width: 75%;
-/*     right: 30%; */
+    /* right: 30%; */
 }
 .ti{
     padding-left: 20%;
