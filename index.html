@@ -3,28 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopify</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
+
     <!-- css bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href=" style.css">
-    <!-- bootstrap jquery -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" type="text/css" href="lightslider.css">
+    <!-- <link rel="shortcut icon" href="logo.png" > -->
+    <script type="text/javascript" src="jquery.js"></script>
+    <!--lightslider.js--------------->
+    <script type="text/javascript" src="lightslider.js"></script>
+
 </head>
 
 <body>
@@ -69,46 +69,242 @@
         </div>
     </section>
 
-<!-- about -->
-<section id="about">
-    <div class="row">
-        <div class="col-lg-6 ab1">
-            <h1>About Us</h1>
-            <p>
-                Welcome to our website! We are a cutting-edge online marketplace dedicated to providing a seamless shopping experience for our valued customers. With a vast array of high-quality products across various categories, we aim to cater to your every need. Our user-friendly platform ensures hassle-free navigation and secure transactions. Our dedicated customer support team is always ready to assist you at every step, ensuring your satisfaction. We strive to stay ahead with the latest trends and innovations to deliver the best shopping experience. Trust us to deliver excellence, convenience, and unmatched value with every purchase you make. Happy shopping!
-            </p>
+    <!-- about -->
+    <section id="about">
+        <div class="row">
+            <div class="col-lg-6 ab1">
+                <h1>About Us</h1>
+                <p>
+                    Welcome to our website! We are a cutting-edge online marketplace dedicated to providing a seamless
+                    shopping experience for our valued customers. With a vast array of high-quality products across
+                    various categories, we aim to cater to your every need. Our user-friendly platform ensures
+                    hassle-free navigation and secure transactions. Our dedicated customer support team is always ready
+                    to assist you at every step, ensuring your satisfaction. We strive to stay ahead with the latest
+                    trends and innovations to deliver the best shopping experience. Trust us to deliver excellence,
+                    convenience, and unmatched value with every purchase you make. Happy shopping!
+                </p>
+            </div>
+            <div class="col-lg-6 ab2">
+                <img class="about-image" src="abt.jpg" alt="img" width="500">
+            </div>
         </div>
-        <div class="col-lg-6 ab2">
-            <img class="about-image" src="abt.jpg" alt="img" width="500">
-        </div>
+    </section>
+
+<hr>
+
+    <!-- product -->
+    <section id="product" >
+        <h1>Our Products</h1>
+        <!-- slider -->
+        <div class="slider">
+        <ul id="autoWidth" class="cs-hidden">
+            <li class="item-a">
+                <div class="box">
+                    <!-- img -->
+                    <div class="slide-img">
+
+                        <img src="images/1.png">
+                        <!-- <div class="overlay">
+                            
+                        </div> -->
+                    </div>
+                    <!-- detail -->
+                    <div class="detail-box">
+                        <div class="type">
+                            <a href="#product">Lacoste</a>
+                            <span>Solid Sweatshirt</span>
+                            <a href="#product" class="buy-btn">Buy Now</a>
+                        </div>
+                        <a href="#product" class="price">$23</a>
+                    </div>
+                </div>
+
+            </li>
+
+
+            <li class="item-b">
+                <div class="box">
+                    <!-- img -->
+                    <div class="slide-img">
+
+                        <img src="images/2.png">
+                        <!-- <div class="overlay">
+                            
+                        </div> -->
+                    </div>
+                    <!-- detail -->
+                    <div class="detail-box">
+                        <div class="type">
+                            <a href="#product">Mango</a>
+                            <span>Casual Shirt</span>
+                            <a href="#product" class="buy-btn">Buy Now</a>
+                        </div>
+                        <a href="#product" class="price">$26</a>
+                    </div>
+                </div>
+
+            </li>
+
+            <li class="item-c">
+                <div class="box">
+                    <!-- img -->
+                    <div class="slide-img">
+
+                        <img src="images/3.png">
+                        <!-- <div class="overlay">
+                            
+                        </div> -->
+                    </div>
+                    <!-- detail -->
+                    <div class="detail-box">
+                        <div class="type">
+                            <a href="#product">Nike T-Shirt</a>
+                            <span>V-Neck T-Shirt</span>
+                            <a href="#product" class="buy-btn">Buy Now</a>
+                        </div>
+                        <a href="#product" class="price">$41</a>
+                    </div>
+                </div>
+
+            </li>
+
+            <li class="item-d">
+                <div class="box">
+                    <!-- img -->
+                    <div class="slide-img">
+
+                        <img src="images/4.png">
+                        <!-- <div class="overlay">
+                            
+                        </div> -->
+                    </div>
+                    <!-- detail -->
+                    <div class="detail-box">
+                        <div class="type">
+                            <a href="#product">Allen Solly Woman</a>
+                            <span>Formal Shirt</span>
+                            <a href="#product" class="buy-btn">Buy Now</a>
+                        </div>
+                        <a href="#product" class="price">$32</a>
+                    </div>
+                </div>
+
+            </li>
+
+            <li class="item-e">
+                <div class="box">
+                    <!-- img -->
+                    <div class="slide-img">
+        
+                        <img src="images/5.png">
+                        <!-- <div class="overlay">
+                            
+                        </div> -->
+                    </div>
+                    <!-- detail -->
+                    <div class="detail-box">
+                        <div class="type">
+                            <a href="#product">Puma</a>
+                            <span>V-Neck T-Shirt</span>
+                            <a href="#product" class="buy-btn">Buy Now</a>
+                        </div>
+                        <a href="#product" class="price">$43</a>
+                    </div>
+                </div>
+
+            </li>
+
+            <li class="item-f">
+                <div class="box">
+                    <!-- img -->
+                    <div class="slide-img">
+        
+                        <img src="images/6.png">
+                        <!-- <div class="overlay">
+                            
+                        </div> -->
+                    </div>
+                    <!-- detail -->
+                    <div class="detail-box">
+                        <div class="type">
+                            <a href="#product">Ritu Kumar</a>
+                            <span>Embroidered Tunic</span>
+                            <a href="#product" class="buy-btn">Buy Now</a>
+                        </div>
+                        <a href="#product" class="price">$38</a>
+                    </div>
+                </div>
+
+            </li>
+
+            <li class="item-g">
+                <div class="box">
+                    <!-- img -->
+                    <div class="slide-img">
+        
+                        <img src="images/7.png">
+                        <!-- <div class="overlay">
+                            
+                        </div> -->
+                    </div>
+                    <!-- detail -->
+                    <div class="detail-box">
+                        <div class="type">
+                            <a href="#product">Under Armour</a>
+                            <span>Golf T-shirt</span>
+                            <a href="#product" class="buy-btn">Buy Now</a>
+                        </div>
+                        <a href="#product" class="price">$25</a>
+                    </div>
+                </div>
+
+            </li>
+
+
+            <li class="item-h">
+                <div class="box">
+                    <!-- img -->
+                    <div class="slide-img">
+        
+                        <img src="images/8.png">
+                        <!-- <div class="overlay">
+                            
+                        </div> -->
+                    </div>
+                    <!-- detail -->
+                    <div class="detail-box">
+                        <div class="type">
+                            <a href="#product">Rabbed Cardigan</a>
+                            <span>New Arrival</span>
+                            <a href="#product" class="buy-btn">Buy Now</a>
+                        </div>
+                        <a href="#product" class="price">$33</a>
+                    </div>
+                </div>
+
+            </li>
+
+        </ul>
     </div>
-</section>
 
-
-    
-<!-- product -->
-<section id="product">
-    
-<!--     ANSHUMAN -->
-    
-</section>
+    </section>
 
 
 
 
-    
-<!--     contact -->
+
+    <!--     contact -->
     <section class="ContactMe" id="CntcMe">
         <div class="CntcForm">
             <h1>Contact Us</h1>
             <p>
                 Drop Us A Message
-                <form action="https://formsubmit.co/abhradipsaha360@gmail.com" method="POST">
+            <form action="https://formsubmit.co/abhradipsaha360@gmail.com" method="POST">
                 <input type="text" name="Name" placeholder="Your Name" required autocomplete="off">
                 <input type="email" name="Email" id="" placeholder="E-mail" required autocomplete="off">
                 <input type="text" name="Sub" placeholder="Write your subject" required autocomplete="off">
-                <textarea name="Message" class="message" id="" cols="30" rows="10" placeholder="Your Message"
-                    required autocomplete="off"></textarea>
+                <textarea name="Message" class="message" id="" cols="30" rows="10" placeholder="Your Message" required
+                    autocomplete="off"></textarea>
                 <input type="submit" name="" value="Send" class="btn" placeholder="Write tour message">
 
             </form>
@@ -124,6 +320,8 @@
         Copyright @Code Warriors 2023
     </div>
 
+
+    <script src="script.js"></script>
 </body>
 
 </html>
